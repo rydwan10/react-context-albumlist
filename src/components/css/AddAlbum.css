@@ -1,0 +1,45 @@
+.form-wrapper {
+    background: rgba(255, 255, 255, 0.212);
+    margin-top: 2.5rem;
+}
+
+.add-title {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 24px;
+}
+form {
+    padding: 12px 24px;
+}
+
+form label {
+    color: #ffffff; 
+    font-weight: 500;
+}
+
+input[type='text'] {
+    width: 100%;
+    box-sizing: inherit;
+    padding: 14px;
+    font-size: 18px;
+    margin: 6px auto;
+    background: rgba(255, 255, 255, 0.7);
+    border: 0;
+    border-radius: 12px;
+}
+
+input[type='submit'] {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 45px;
+    background: rgb(35, 102, 226);
+    color: #ffffff;
+    font-size: 15px;
+    border: 0;
+    border-radius: 6px;
+    box-shadow: 2px 2px 1px 1px rgba(255, 255, 255, 0.4);
+}
+
+input[type='submit']:hover {
+    background-color: rgb(54, 119, 241);
+}

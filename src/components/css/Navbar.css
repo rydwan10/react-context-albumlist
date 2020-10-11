@@ -1,0 +1,28 @@
+nav {
+    /* padding: 10px 20px; */
+    text-align: center;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #c0c0c0;
+    margin-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-right: 10px;
+    background: rgb(35, 102, 226);
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 2px 2px 1px 1px rgba(255, 255, 255, 0.4);
+}
+
+nav ul li:hover {
+    background-color: rgb(54, 119, 241);
+}

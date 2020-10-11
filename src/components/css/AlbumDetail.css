@@ -1,0 +1,40 @@
+.album-card {
+    align-items: center;
+    padding: 14px;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 10px 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.delete-button {
+    background: rgba(255, 0, 0, 0.459);
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.album-card:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.album-card .delete-button:hover {
+    background: rgb(255, 56, 56);
+    cursor: pointer;
+}
+
+.album-title {
+    max-width: 85%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

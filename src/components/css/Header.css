@@ -1,0 +1,11 @@
+.album-header {
+    padding: 10px;
+    margin: 0 10px;
+    text-align: center;
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
